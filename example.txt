@@ -1,0 +1,5 @@
+트위터와 같은 SNS 웹사이트에 대한 PRD를 만들어줘
+- 기술 스택은 백엔드는 Python, Fast API를 사용하고, 데이터 베이스는 호스팅된 MongoDB를 사용
+- 프론트엔드는 React.JS. 검색은 호스팅된 Elastic Search를 이용
+- 사용자 로그인은 Firebase 이용해서 Google, Apple, Facebook를 지원
+- 그림은 여러장을 올릴 수 있어. 포스팅에는 그림과 동영상을 추가할 수 있어. 포스팅에는 다른 사용자가 좋아요 기능을 넣을 수 있고, 댓글을 달 수 있어
