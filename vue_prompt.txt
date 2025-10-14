@@ -1,0 +1,172 @@
+---
+description: Vue.js best practices and patterns for modern web applications
+globs: **/*.vue, **/*.ts, components/**/*
+---
+
+# Vue.js Best Practices
+
+## Component Structure
+- Use Composition API over Options API
+- Keep components small and focused
+- Use proper TypeScript integration
+- Implement proper props validation
+- Use proper emit declarations
+- Keep template logic minimal
+
+## Composition API
+- Use proper ref and reactive
+- Implement proper lifecycle hooks
+- Use composables for reusable logic
+- Keep setup function clean
+- Use proper computed properties
+- Implement proper watchers
+
+## State Management
+- Use Pinia for state management
+- Keep stores modular
+- Use proper state composition
+- Implement proper actions
+- Use proper getters
+- Handle async state properly
+
+## Performance
+- Use proper component lazy loading
+- Implement proper caching
+- Use proper computed properties
+- Avoid unnecessary watchers
+- Use proper v-show vs v-if
+- Implement proper key management
+
+## Routing
+- Use Vue Router properly
+- Implement proper navigation guards
+- Use proper route meta fields
+- Handle route params properly
+- Implement proper lazy loading
+- Use proper navigation methods
+
+## Forms
+- Use v-model properly
+- Implement proper validation
+- Handle form submission properly
+- Show proper loading states
+- Use proper error handling
+- Implement proper form reset
+
+## TypeScript Integration
+- Use proper component type definitions
+- Implement proper prop types
+- Use proper emit declarations
+- Handle proper type inference
+- Use proper composable types
+- Implement proper store types
+
+## Testing
+- Write proper unit tests
+- Implement proper component tests
+- Use Vue Test Utils properly
+- Test composables properly
+- Implement proper mocking
+- Test async operations
+
+## Best Practices
+- Follow Vue style guide
+- Use proper naming conventions
+- Keep components organized
+- Implement proper error handling
+- Use proper event handling
+- Document complex logic
+
+## Build and Tooling
+- Use Vite for development
+- Configure proper build setup
+- Use proper environment variables
+- Implement proper code splitting
+- Use proper asset handling
+- Configure proper optimization 
+
+--------------------------------------------------------------
+설명 : Modern Web Applications을 위한 Vue.js 모범 사례 및 패턴
+globs : **/*.vue, **/*.ts, 구성 요소/**/*
+
+#  Vue.js 베스트 프랙티스
+
+## 컴포넌트 구조
+- Options API보다 Composition API 사용
+- 컴포넌트를 작고 명확하게 유지
+- 올바른 TypeScript 통합
+- 적절한 props 유효성 검사 구현
+- 올바른 emit 선언 사용
+- 템플릿 로직 최소화
+
+## Composition API
+- ref와 reactive를 적절히 사용
+- 적절한 lifecycle hooks 구현
+- 재사용 가능한 로직은 composable로 분리
+- setup 함수는 깔끔하게 유지
+- 적절한 computed 속성 사용
+- 적절한 watcher 구현
+
+## State Management
+- State Management는 Pinia 사용
+- store는 모듈화하여 구성
+- 적절한 State Composition 사용
+- 적절한 action 구현
+- 적절한 getter 사용
+- 비동기 상태는 올바르게 처리
+
+## 성능
+- 컴포넌트 지연 로딩(lazy loading) 활용
+- 캐싱 전략 구현
+- computed 속성 적절히 사용
+- 불필요한 watcher 피하기
+- v-show와 v-if 적절히 구분 사용
+- key 속성 적절히 관리
+
+## 라우팅
+- Vue Router를 올바르게 사용
+- 네비게이션 가드 구현
+- route meta 필드 적절히 활용
+- route params 적절히 처리
+- 라우트 지연 로딩 구현
+- 올바른 네비게이션 메서드 사용
+
+## 폼 처리
+- v-model을 올바르게 사용
+- 유효성 검사 구현
+- 폼 제출 처리
+- 로딩 상태 표시
+- 오류 처리 구현
+- 폼 초기화 기능 구현
+
+## TypeScript 통합
+- 컴포넌트 타입 정의 명확히
+- prop 타입 정의 구현
+- emit 선언 명확히
+- 타입 추론 적절히 처리
+- composable 타입 정의
+- store 타입 정의
+
+## 테스트
+- 단위 테스트 작성
+- 컴포넌트 테스트 구현
+- Vue Test Utils 적절히 사용
+- composable 테스트
+- mocking 구현
+- 비동기 작업 테스트
+
+## 일반 베스트 프랙티스
+- Vue 스타일 가이드 준수
+- 명명 규칙 일관성 유지
+- 컴포넌트 정리 및 구조화
+- 오류 처리 구현
+- 이벤트 처리 명확히
+- 복잡한 로직은 문서화
+
+## 빌드 및 툴링
+- 개발에는 Vite 사용
+- 빌드 설정 구성
+- 환경 변수 적절히 설정
+- 코드 분할 구현
+- 에셋 처리 명확히
+- 최적화 설정 구성
